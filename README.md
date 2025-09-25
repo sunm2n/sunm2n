@@ -32,10 +32,14 @@
   ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
   ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white)
 
-  ### Tools
+  # Tools
   ![intellij idea](https://img.shields.io/badge/intellij%20idea-000000.svg?&style=for-the-badge&logo=intellij%20idea&logoColor=white)
   ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC.svg?&style=for-the-badge&logo=Visual%20Studio%20Code&logoColor=white)
   ![Google Colab](https://img.shields.io/badge/Google%20Colab-%23F9A825.svg?style=for-the-badge&logo=googlecolab&logoColor=white)
+
+  # AI
+  ![claude](https://img.shields.io/badge/claude%20code-D97757.svg?&style=for-the-badge&logo=claude&logoColor=white)
+  ![gemini](https://img.shields.io/badge/google%20gemini-8E75B2.svg?&style=for-the-badge&logo=google%20gemini&logoColor=white)
 
 # :mailbox_with_mail: Contacts
 [![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:kimsh1691@mju.ac.kr)](mailto:kimsh1691mju.ac.kr)
