@@ -14,7 +14,6 @@
 # 💪Skills
 ### Platforms & Languages
   ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-  ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
   ![Python](https://img.shields.io/badge/Python-3776AB.svg?&style=for-the-badge&logo=Python&logoColor=white)
   ![spring](https://img.shields.io/badge/spring-6DB33F.svg?&style=for-the-badge&logo=spring&logoColor=black)
   ![springboot](https://img.shields.io/badge/spring%20boot-6DB33F.svg?&style=for-the-badge&logo=spring%20boot&logoColor=black)
