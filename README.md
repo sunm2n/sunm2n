@@ -41,8 +41,16 @@
   ![claude](https://img.shields.io/badge/claude%20code-D97757.svg?&style=for-the-badge&logo=claude&logoColor=white)
   ![gemini](https://img.shields.io/badge/google%20gemini-8E75B2.svg?&style=for-the-badge&logo=google%20gemini&logoColor=white)
 
+  # 🎓 Education
+
+| 기간 | 기관/활동 | 비고 |
+| --- | --- | --- |
+| 2022.03 - ~ing | 명지대학교 | 컴퓨터공학과 재학 |
+| 2025.06 - 2025.08 | [멋쟁이 사자처럼] - 백엔드 단기 심화 부트캠프 | 최종 프로젝트 최우수상 수상 |
+| 2025.09 - ~ing | [UMC 명지대] - SpringBoot | 시니어 과정 진행중 |
+
 # :mailbox_with_mail: Contacts
-[![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:kimsh1691@mju.ac.kr)](mailto:kimsh1691mju.ac.kr)
+[![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:sunmin8410@mju.ac.kr)](mailto:sunmin8410@mju.ac.kr)
 [![Naver Badge](https://img.shields.io/badge/Naver-03C75A?style=flat-square&logo=Naver&logoColor=white&link=mailto:sunmin8410@naver.com)](mailto:sunmin8410@naver.com)
 
 
