@@ -9,6 +9,13 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sunm2n)](https://github.com/anuraghazra/github-readme-stats)
 
 
+<a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=sunm2n&utm_content=farm">
+<img
+  src="https://render.gitanimals.org/farms/sunm2n"
+  width="600"
+  height="300"
+/>
+</a>
 </div>
 
 # 💪Skills
