@@ -67,5 +67,3 @@
 # :mailbox_with_mail: Contacts
 [![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:sunmin8410@mju.ac.kr)](mailto:sunmin8410@mju.ac.kr)
 [![Naver Badge](https://img.shields.io/badge/Naver-03C75A?style=flat-square&logo=Naver&logoColor=white&link=mailto:sunmin8410@naver.com)](mailto:sunmin8410@naver.com)
-
-
