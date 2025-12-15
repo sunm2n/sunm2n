@@ -6,8 +6,6 @@
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=sunmin8410)](https://solved.ac/sunmin8410/)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sunm2n)](https://github.com/anuraghazra/github-readme-stats)
-
 
 <a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=sunm2n&utm_content=farm">
 <img
