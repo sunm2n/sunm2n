@@ -65,5 +65,5 @@
 | 2027.08 - 2028.02(예정) | 영림원 소프트랩 | 일학습병행 인턴 |
 
 # :mailbox_with_mail: Contacts
-[![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:sunmin8410@mju.ac.kr)](mailto:sunmin8410@mju.ac.kr)
+[![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:sunmin8410@mju.ac.kr)](mailto:sunmin4142@gmail.com)
 [![Naver Badge](https://img.shields.io/badge/Naver-03C75A?style=flat-square&logo=Naver&logoColor=white&link=mailto:sunmin8410@naver.com)](mailto:sunmin8410@naver.com)
