@@ -1,8 +1,8 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=LEE%20SUN%20MIN&fontSize=90)
 
 <div align="center">
-  
-![sunm2n's GitHub stats](https://github-readme-stats.vercel.app/api?username=sunm2n&show_icons=true&theme=radical)
+
+![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=sunm2n&show_icons=true&theme=tokyonight)
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=sunmin8410)](https://solved.ac/sunmin8410/)
 
