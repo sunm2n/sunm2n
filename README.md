@@ -62,7 +62,7 @@
 | 기간 | 기관/활동 | 비고 |
 | --- | --- | --- |
 | 2026.01 - 2026.02(재직중) | 영림원 소프트랩 | 동계 단기 인턴 |
-| 2027.08 - 2028.02(예정) | 영림원 소프트랩 | 일학습병행 인턴 |
+| 2026.08 - 2027.02(예정) | 영림원 소프트랩 | 일학습병행 인턴 |
 
 # :mailbox_with_mail: Contacts
 [![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:sunmin8410@mju.ac.kr)](mailto:sunmin4142@gmail.com)
