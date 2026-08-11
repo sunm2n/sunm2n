@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=sunm2n&show_icons=true&theme=tokyonight)
+![GitHub Stats](https://github-stats-extended.vercel.app/api?username=sunm2n&show_icons=true&theme=tokyonight)
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=sunmin8410)](https://solved.ac/sunmin8410/)
 
