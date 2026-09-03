@@ -1,11 +1,8 @@
 ### Hi, I'm Sunmin 👋
 
 Backend developer working mainly with **Java** and **Spring Boot**.
-I'm interested in open source — reading upstream code, filing what I find, and sending
-the fix back rather than working around it locally.
 
-- 🌱 Currently contributing to **Docker / BuildKit** and **Apache Kafka**
-- 🔭 Interested in build systems, caching, and distributed messaging
+I'm interested in open source 
 
 ---
 
