@@ -8,10 +8,10 @@ I'm interested in open source
 
 ## 🌍 Open Source Contributions
 
-`✅ Merged` &nbsp;·&nbsp; `🔍 In review` &nbsp;·&nbsp; `💬 Open discussion`
+`✅ Merged` &nbsp;·&nbsp; `🔍 In review` &nbsp;·&nbsp; `📝 Draft` &nbsp;·&nbsp; `💬 Open discussion`
 
 <details>
-<summary><b>docker/docs</b> &nbsp;—&nbsp; 5 merged &nbsp;·&nbsp; 1 in review</summary>
+<summary><b>docker/docs</b> &nbsp;—&nbsp; 6 merged</summary>
 
 <br>
 
@@ -21,7 +21,7 @@ build cache GC policy example.
 
 | | Type | Title | Status |
 |:--|:--|:--|:--|
-| [#26025](https://github.com/docker/docs/pull/26025) | PR | Restore `/docker-for-windows/troubleshoot/` alias | 🔍 In review |
+| [#26025](https://github.com/docker/docs/pull/26025) | PR | Restore `/docker-for-windows/troubleshoot/` alias | ✅ Merged |
 | [#26016](https://github.com/docker/docs/pull/26016) | PR | Fix arithmetic in build cache GC policy example | ✅ Merged |
 | [#25977](https://github.com/docker/docs/pull/25977) | PR | Replace GHA local cache workaround with `reset` | ✅ Merged |
 | [#25976](https://github.com/docker/docs/pull/25976) | PR | Document `reset` parameter for local cache backend | ✅ Merged |
@@ -39,6 +39,21 @@ build cache GC policy example.
 |:--|:--|:--|:--|
 | [#23390](https://github.com/apache/kafka/pull/23390) | PR | `KAFKA-21034`: Wipe the global state directory when the store is corrupted | 🔍 In review |
 | [#23344](https://github.com/apache/kafka/pull/23344) | PR | `MINOR`: Replace `Collections`/`Arrays` factory methods with Java 9+ equivalents in tools | ✅ Merged |
+
+</details>
+
+<details>
+<summary><b>opensearch-project/OpenSearch</b> &nbsp;—&nbsp; 1 draft</summary>
+
+<br>
+
+Picking up [#22961](https://github.com/opensearch-project/OpenSearch/issues/22961): the DSL
+query translators silently ignored `boost` and `_name` in some queries while rejecting them
+in others. Making the policy uniform across translators.
+
+| | Type | Title | Status |
+|:--|:--|:--|:--|
+| [#22981](https://github.com/opensearch-project/OpenSearch/pull/22981) | PR | Reject unsupported DSL query options | 📝 Draft |
 
 </details>
 
