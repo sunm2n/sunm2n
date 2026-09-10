@@ -58,6 +58,20 @@ in others. Making the policy uniform across translators.
 </details>
 
 <details>
+<summary><b>Discussions</b> &nbsp;—&nbsp; 2 threads</summary>
+
+<br>
+
+Comments on other people's threads, mostly follow-on from the local cache work.
+
+| Repo | Thread | What I added |
+|:--|:--|:--|
+| docker/buildx | [#310](https://github.com/docker/buildx/issues/310#issuecomment-5537817848) | Corrected which component gates `reset=true` — the **buildx** version, not the builder's BuildKit — with the release each side landed in |
+| docker/docs | [#13390](https://github.com/docker/docs/issues/13390#issuecomment-5564820406) | Traced which half of a 3-year-old report [#21420](https://github.com/docker/docs/pull/21420) had already fixed, and which part still stands |
+
+</details>
+
+<details>
 <summary><b>moby/buildkit</b> &nbsp;—&nbsp; 1 open</summary>
 
 <br>
