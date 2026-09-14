@@ -11,16 +11,18 @@ I'm interested in open source
 `✅ Merged` &nbsp;·&nbsp; `🔍 In review` &nbsp;·&nbsp; `📝 Draft` &nbsp;·&nbsp; `💬 Open discussion`
 
 <details>
-<summary><b>docker/docs</b> &nbsp;—&nbsp; 6 merged</summary>
+<summary><b>docker/docs</b> &nbsp;-&nbsp; 6 merged &nbsp;·&nbsp; 2 in review</summary>
 
 <br>
 
-Mostly BuildKit caching docs: corrected a wrong description of the **local cache backend**,
-documented its undocumented `tag` and `reset` parameters, then fixed arithmetic in a
-build cache GC policy example.
+Started with BuildKit caching docs: corrected a wrong description of the **local cache
+backend**, documented its undocumented `tag` and `reset` parameters, then fixed arithmetic
+in a build cache GC policy example. Since then, smaller fixes across install and admin docs.
 
 | | Type | Title | Status |
 |:--|:--|:--|:--|
+| [#26087](https://github.com/docker/docs/pull/26087) | PR | Fix install options on the Raspberry Pi OS 32-bit page | 🔍 In review |
+| [#26054](https://github.com/docker/docs/pull/26054) | PR | Scope the SCIM note in the team removal section | 🔍 In review |
 | [#26025](https://github.com/docker/docs/pull/26025) | PR | Restore `/docker-for-windows/troubleshoot/` alias | ✅ Merged |
 | [#26016](https://github.com/docker/docs/pull/26016) | PR | Fix arithmetic in build cache GC policy example | ✅ Merged |
 | [#25977](https://github.com/docker/docs/pull/25977) | PR | Replace GHA local cache workaround with `reset` | ✅ Merged |
@@ -31,7 +33,24 @@ build cache GC policy example.
 </details>
 
 <details>
-<summary><b>apache/kafka</b> &nbsp;—&nbsp; 1 merged &nbsp;·&nbsp; 1 in review</summary>
+<summary><b>opensearch-project/OpenSearch</b> &nbsp;-&nbsp; 1 issue &nbsp;·&nbsp; 2 drafts</summary>
+
+<br>
+
+Picked up [#22961](https://github.com/opensearch-project/OpenSearch/issues/22961): the DSL
+query translators silently ignored `boost` and `_name` in some queries while rejecting them
+in others. Working through that led to a second gap in the same area, filed as #23011.
+
+| | Type | Title | Status |
+|:--|:--|:--|:--|
+| [#23014](https://github.com/opensearch-project/OpenSearch/pull/23014) | PR | Validate skipped optional `should` clauses | 📝 Draft |
+| [#23011](https://github.com/opensearch-project/OpenSearch/issues/23011) | Issue | Unsupported `boost`/`_name` on optional `should` clauses is silently accepted | 💬 Open discussion |
+| [#22981](https://github.com/opensearch-project/OpenSearch/pull/22981) | PR | Reject unsupported DSL query options | 📝 Draft |
+
+</details>
+
+<details>
+<summary><b>apache/kafka</b> &nbsp;-&nbsp; 1 merged &nbsp;·&nbsp; 1 in review</summary>
 
 <br>
 
@@ -43,22 +62,7 @@ build cache GC policy example.
 </details>
 
 <details>
-<summary><b>opensearch-project/OpenSearch</b> &nbsp;—&nbsp; 1 draft</summary>
-
-<br>
-
-Picking up [#22961](https://github.com/opensearch-project/OpenSearch/issues/22961): the DSL
-query translators silently ignored `boost` and `_name` in some queries while rejecting them
-in others. Making the policy uniform across translators.
-
-| | Type | Title | Status |
-|:--|:--|:--|:--|
-| [#22981](https://github.com/opensearch-project/OpenSearch/pull/22981) | PR | Reject unsupported DSL query options | 📝 Draft |
-
-</details>
-
-<details>
-<summary><b>Discussions</b> &nbsp;—&nbsp; 2 threads</summary>
+<summary><b>Discussions</b> &nbsp;-&nbsp; 2 threads</summary>
 
 <br>
 
@@ -66,13 +70,13 @@ Comments on other people's threads, mostly follow-on from the local cache work.
 
 | Repo | Thread | What I added |
 |:--|:--|:--|
-| docker/buildx | [#310](https://github.com/docker/buildx/issues/310#issuecomment-5537817848) | Corrected which component gates `reset=true` — the **buildx** version, not the builder's BuildKit — with the release each side landed in |
+| docker/buildx | [#310](https://github.com/docker/buildx/issues/310#issuecomment-5537817848) | Corrected which component gates `reset=true`, the **buildx** version rather than the builder's BuildKit, with the release each side landed in |
 | docker/docs | [#13390](https://github.com/docker/docs/issues/13390#issuecomment-5564820406) | Traced which half of a 3-year-old report [#21420](https://github.com/docker/docs/pull/21420) had already fixed, and which part still stands |
 
 </details>
 
 <details>
-<summary><b>moby/buildkit</b> &nbsp;—&nbsp; 1 open</summary>
+<summary><b>moby/buildkit</b> &nbsp;-&nbsp; 1 open</summary>
 
 <br>
 
