@@ -33,7 +33,23 @@ in a build cache GC policy example. Since then, smaller fixes across install and
 </details>
 
 <details>
-<summary><b>opensearch-project/OpenSearch</b> &nbsp;-&nbsp; 1 issue &nbsp;·&nbsp; 2 drafts</summary>
+<summary><b>apache/kafka</b> &nbsp;-&nbsp; 1 merged &nbsp;·&nbsp; 2 in review</summary>
+
+<br>
+
+Kafka Streams state management: two JIRA-tracked fixes around state directory cleanup
+after a corrupted store or an interrupted shutdown.
+
+| | Type | Title | Status |
+|:--|:--|:--|:--|
+| [#23549](https://github.com/apache/kafka/pull/23549) | PR | `KAFKA-21070`: Fix task cleanup when state updater shutdown is interrupted | 🔍 In review |
+| [#23390](https://github.com/apache/kafka/pull/23390) | PR | `KAFKA-21034`: Wipe the global state directory when the store is corrupted | 🔍 In review |
+| [#23344](https://github.com/apache/kafka/pull/23344) | PR | `MINOR`: Replace `Collections`/`Arrays` factory methods with Java 9+ equivalents in tools | ✅ Merged |
+
+</details>
+
+<details>
+<summary><b>opensearch-project/OpenSearch</b> &nbsp;-&nbsp; 1 in review &nbsp;·&nbsp; 1 draft &nbsp;·&nbsp; 1 issue</summary>
 
 <br>
 
@@ -45,19 +61,7 @@ in others. Working through that led to a second gap in the same area, filed as #
 |:--|:--|:--|:--|
 | [#23014](https://github.com/opensearch-project/OpenSearch/pull/23014) | PR | Validate skipped optional `should` clauses | 📝 Draft |
 | [#23011](https://github.com/opensearch-project/OpenSearch/issues/23011) | Issue | Unsupported `boost`/`_name` on optional `should` clauses is silently accepted | 💬 Open discussion |
-| [#22981](https://github.com/opensearch-project/OpenSearch/pull/22981) | PR | Reject unsupported DSL query options | 📝 Draft |
-
-</details>
-
-<details>
-<summary><b>apache/kafka</b> &nbsp;-&nbsp; 1 merged &nbsp;·&nbsp; 1 in review</summary>
-
-<br>
-
-| | Type | Title | Status |
-|:--|:--|:--|:--|
-| [#23390](https://github.com/apache/kafka/pull/23390) | PR | `KAFKA-21034`: Wipe the global state directory when the store is corrupted | 🔍 In review |
-| [#23344](https://github.com/apache/kafka/pull/23344) | PR | `MINOR`: Replace `Collections`/`Arrays` factory methods with Java 9+ equivalents in tools | ✅ Merged |
+| [#22981](https://github.com/opensearch-project/OpenSearch/pull/22981) | PR | Reject unsupported DSL query options | 🔍 In review |
 
 </details>
 
@@ -71,7 +75,7 @@ Comments on other people's threads, mostly follow-on from the local cache work.
 | Repo | Thread | What I added |
 |:--|:--|:--|
 | docker/buildx | [#310](https://github.com/docker/buildx/issues/310#issuecomment-5537817848) | Corrected which component gates `reset=true`, the **buildx** version rather than the builder's BuildKit, with the release each side landed in |
-| docker/docs | [#13390](https://github.com/docker/docs/issues/13390#issuecomment-5564820406) | Traced which half of a 3-year-old report [#21420](https://github.com/docker/docs/pull/21420) had already fixed, and which part still stands |
+| docker/docs | [#13390](https://github.com/docker/docs/issues/13390#issuecomment-5564820406) | Traced which half of a 3-year-old report [#21420](https://github.com/docker/docs/pull/21420) had already fixed, and which part still stands. The reporter closed the thread a week later |
 
 </details>
 
