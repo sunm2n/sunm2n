@@ -11,7 +11,7 @@ I'm interested in open source
 `✅ Merged` &nbsp;·&nbsp; `🔍 In review` &nbsp;·&nbsp; `📝 Draft` &nbsp;·&nbsp; `💬 Open discussion`
 
 <details>
-<summary><b>docker/docs</b> &nbsp;-&nbsp; 6 merged &nbsp;·&nbsp; 2 in review</summary>
+<summary><b>docker/docs</b> &nbsp;-&nbsp; 6 merged &nbsp;·&nbsp; 3 in review</summary>
 
 <br>
 
@@ -21,6 +21,7 @@ in a build cache GC policy example. Since then, smaller fixes across install and
 
 | | Type | Title | Status |
 |:--|:--|:--|:--|
+| [#26197](https://github.com/docker/docs/pull/26197) | PR | Correct GitHub Actions cache version selection | 🔍 In review |
 | [#26087](https://github.com/docker/docs/pull/26087) | PR | Fix install options on the Raspberry Pi OS 32-bit page | 🔍 In review |
 | [#26054](https://github.com/docker/docs/pull/26054) | PR | Scope the SCIM note in the team removal section | 🔍 In review |
 | [#26025](https://github.com/docker/docs/pull/26025) | PR | Restore `/docker-for-windows/troubleshoot/` alias | ✅ Merged |
@@ -33,15 +34,17 @@ in a build cache GC policy example. Since then, smaller fixes across install and
 </details>
 
 <details>
-<summary><b>apache/kafka</b> &nbsp;-&nbsp; 1 merged &nbsp;·&nbsp; 2 in review</summary>
+<summary><b>apache/kafka</b> &nbsp;-&nbsp; 1 merged &nbsp;·&nbsp; 3 in review</summary>
 
 <br>
 
 Kafka Streams state management: two JIRA-tracked fixes around state directory cleanup
-after a corrupted store or an interrupted shutdown.
+after a corrupted store or an interrupted shutdown, plus ongoing Java 9+ cleanup in tools
+and storage tests.
 
 | | Type | Title | Status |
 |:--|:--|:--|:--|
+| [#23617](https://github.com/apache/kafka/pull/23617) | PR | `MINOR`: Replace `Collections` factory methods with Java 9+ equivalents in storage tests | 🔍 In review |
 | [#23549](https://github.com/apache/kafka/pull/23549) | PR | `KAFKA-21070`: Fix task cleanup when state updater shutdown is interrupted | 🔍 In review |
 | [#23390](https://github.com/apache/kafka/pull/23390) | PR | `KAFKA-21034`: Wipe the global state directory when the store is corrupted | 🔍 In review |
 | [#23344](https://github.com/apache/kafka/pull/23344) | PR | `MINOR`: Replace `Collections`/`Arrays` factory methods with Java 9+ equivalents in tools | ✅ Merged |
@@ -66,6 +69,22 @@ in others. Working through that led to a second gap in the same area, filed as #
 </details>
 
 <details>
+<summary><b>moby/buildkit</b> &nbsp;-&nbsp; 1 issue, fix in review upstream</summary>
+
+<br>
+
+While documenting `reset` for docker/docs, I found the flag can race with a concurrent
+export and reported it as #7102. A maintainer opened #7153 to fix it; I built both branches
+and re-ran the reproduction to confirm the patch closes the race.
+
+| | Type | Title | Status |
+|:--|:--|:--|:--|
+| [#7153](https://github.com/moby/buildkit/pull/7153#issuecomment-5785957508) | Verification | `client`: protect concurrent local cache exports from `reset`, a maintainer's fix for #7102 that I verified against the reported repro | 🔍 In review |
+| [#7102](https://github.com/moby/buildkit/issues/7102) | Issue | local cache exporter: `reset=true` can delete blobs from a concurrent export | 💬 Open discussion |
+
+</details>
+
+<details>
 <summary><b>Discussions</b> &nbsp;-&nbsp; 2 threads</summary>
 
 <br>
@@ -76,19 +95,5 @@ Comments on other people's threads, mostly follow-on from the local cache work.
 |:--|:--|:--|
 | docker/buildx | [#310](https://github.com/docker/buildx/issues/310#issuecomment-5537817848) | Corrected which component gates `reset=true`, the **buildx** version rather than the builder's BuildKit, with the release each side landed in |
 | docker/docs | [#13390](https://github.com/docker/docs/issues/13390#issuecomment-5564820406) | Traced which half of a 3-year-old report [#21420](https://github.com/docker/docs/pull/21420) had already fixed, and which part still stands. The reporter closed the thread a week later |
-
-</details>
-
-<details>
-<summary><b>moby/buildkit</b> &nbsp;-&nbsp; 1 open</summary>
-
-<br>
-
-While documenting `reset` for docker/docs, I found the flag can race with a concurrent
-export and reported it upstream.
-
-| | Type | Title | Status |
-|:--|:--|:--|:--|
-| [#7102](https://github.com/moby/buildkit/issues/7102) | Issue | local cache exporter: `reset=true` can delete blobs from a concurrent export | 💬 Open discussion |
 
 </details>
