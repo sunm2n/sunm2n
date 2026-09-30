@@ -8,7 +8,7 @@ I'm interested in open source
 
 ## 🌍 Open Source Contributions
 
-`✅ Merged` &nbsp;·&nbsp; `🔍 In review` &nbsp;·&nbsp; `📝 Draft` &nbsp;·&nbsp; `💬 Open discussion`
+`✅ Merged / resolved` &nbsp;·&nbsp; `🔍 In review` &nbsp;·&nbsp; `📝 Draft` &nbsp;·&nbsp; `💬 Open discussion`
 
 <details>
 <summary><b>docker/docs</b> &nbsp;-&nbsp; 6 merged &nbsp;·&nbsp; 3 in review</summary>
@@ -52,6 +52,23 @@ and storage tests.
 </details>
 
 <details>
+<summary><b>moby/buildkit</b> &nbsp;-&nbsp; 1 issue resolved</summary>
+
+<br>
+
+While documenting `reset` for docker/docs, I found the flag can race with a concurrent
+export and reported it as #7102. A maintainer opened #7153 to fix it; I built both branches
+and re-ran the reproduction to confirm the patch closes the race. Merged to `master` after
+v0.33.0, and #7102 closed as completed.
+
+| | Type | Title | Status |
+|:--|:--|:--|:--|
+| [#7153](https://github.com/moby/buildkit/pull/7153#issuecomment-5785957508) | Verification | `client`: protect concurrent local cache exports from `reset`, a maintainer's fix for #7102 that I verified against the reported repro | ✅ Merged |
+| [#7102](https://github.com/moby/buildkit/issues/7102) | Issue | local cache exporter: `reset=true` can delete blobs from a concurrent export | ✅ Resolved |
+
+</details>
+
+<details>
 <summary><b>opensearch-project/OpenSearch</b> &nbsp;-&nbsp; 1 in review &nbsp;·&nbsp; 1 draft &nbsp;·&nbsp; 1 issue</summary>
 
 <br>
@@ -65,22 +82,6 @@ in others. Working through that led to a second gap in the same area, filed as #
 | [#23014](https://github.com/opensearch-project/OpenSearch/pull/23014) | PR | Validate skipped optional `should` clauses | 📝 Draft |
 | [#23011](https://github.com/opensearch-project/OpenSearch/issues/23011) | Issue | Unsupported `boost`/`_name` on optional `should` clauses is silently accepted | 💬 Open discussion |
 | [#22981](https://github.com/opensearch-project/OpenSearch/pull/22981) | PR | Reject unsupported DSL query options | 🔍 In review |
-
-</details>
-
-<details>
-<summary><b>moby/buildkit</b> &nbsp;-&nbsp; 1 issue, fix in review upstream</summary>
-
-<br>
-
-While documenting `reset` for docker/docs, I found the flag can race with a concurrent
-export and reported it as #7102. A maintainer opened #7153 to fix it; I built both branches
-and re-ran the reproduction to confirm the patch closes the race.
-
-| | Type | Title | Status |
-|:--|:--|:--|:--|
-| [#7153](https://github.com/moby/buildkit/pull/7153#issuecomment-5785957508) | Verification | `client`: protect concurrent local cache exports from `reset`, a maintainer's fix for #7102 that I verified against the reported repro | 🔍 In review |
-| [#7102](https://github.com/moby/buildkit/issues/7102) | Issue | local cache exporter: `reset=true` can delete blobs from a concurrent export | 💬 Open discussion |
 
 </details>
 
