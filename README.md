@@ -34,7 +34,7 @@ in a build cache GC policy example. Since then, smaller fixes across install and
 </details>
 
 <details>
-<summary><b>apache/kafka</b> &nbsp;-&nbsp; 2 merged &nbsp;·&nbsp; 3 in review</summary>
+<summary><b>apache/kafka</b> &nbsp;-&nbsp; 3 merged &nbsp;·&nbsp; 3 in review</summary>
 
 <br>
 
@@ -44,7 +44,7 @@ across tools, storage, server, and Streams.
 
 | | Type | Title | Status |
 |:--|:--|:--|:--|
-| [#23652](https://github.com/apache/kafka/pull/23652) | PR | `MINOR`: Replace `Collections` factory methods with Java 9+ equivalents in server tests | 🔍 In review |
+| [#23652](https://github.com/apache/kafka/pull/23652) | PR | `MINOR`: Replace `Collections` factory methods with Java 9+ equivalents in server tests | ✅ Merged |
 | [#23636](https://github.com/apache/kafka/pull/23636) | PR | `MINOR`: Replace try/fail/catch with `assertThrows` in remaining Streams tests | 🔍 In review |
 | [#23617](https://github.com/apache/kafka/pull/23617) | PR | `MINOR`: Replace `Collections` factory methods with Java 9+ equivalents in storage tests | ✅ Merged |
 | [#23549](https://github.com/apache/kafka/pull/23549) | PR | `KAFKA-21070`: Fix task cleanup when state updater shutdown is interrupted | 🔍 In review |
