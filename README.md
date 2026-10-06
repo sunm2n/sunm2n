@@ -34,16 +34,17 @@ in a build cache GC policy example. Since then, smaller fixes across install and
 </details>
 
 <details>
-<summary><b>apache/kafka</b> &nbsp;-&nbsp; 3 merged &nbsp;·&nbsp; 3 in review</summary>
+<summary><b>apache/kafka</b> &nbsp;-&nbsp; 3 merged &nbsp;·&nbsp; 4 in review</summary>
 
 <br>
 
 Kafka Streams state management: two JIRA-tracked fixes around state directory cleanup
-after a corrupted store or an interrupted shutdown, plus ongoing test and Java 9+ cleanup
-across tools, storage, server, and Streams.
+after a corrupted store or an interrupted shutdown, plus ongoing test maintenance and Java 9+
+cleanup across tools, storage, server, and Streams.
 
 | | Type | Title | Status |
 |:--|:--|:--|:--|
+| [#23655](https://github.com/apache/kafka/pull/23655) | PR | `KAFKA-21193`: Speed up `SuppressionIntegrationTest` | 🔍 In review |
 | [#23652](https://github.com/apache/kafka/pull/23652) | PR | `MINOR`: Replace `Collections` factory methods with Java 9+ equivalents in server tests | ✅ Merged |
 | [#23636](https://github.com/apache/kafka/pull/23636) | PR | `MINOR`: Replace try/fail/catch with `assertThrows` in remaining Streams tests | 🔍 In review |
 | [#23617](https://github.com/apache/kafka/pull/23617) | PR | `MINOR`: Replace `Collections` factory methods with Java 9+ equivalents in storage tests | ✅ Merged |
