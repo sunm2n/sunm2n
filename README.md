@@ -34,7 +34,7 @@ in a build cache GC policy example. Since then, smaller fixes across install and
 </details>
 
 <details>
-<summary><b>apache/kafka</b> &nbsp;-&nbsp; 3 merged &nbsp;·&nbsp; 5 in review</summary>
+<summary><b>apache/kafka</b> &nbsp;-&nbsp; 3 merged &nbsp;·&nbsp; 6 in review</summary>
 
 <br>
 
@@ -44,6 +44,7 @@ across tools, storage and server, and cutting the runtime of slow Streams integr
 
 | | Type | Title | Status |
 |:--|:--|:--|:--|
+| [#23746](https://github.com/apache/kafka/pull/23746) | PR | `MINOR`: Fix login callback config cleanup in `SaslAuthenticatorTest` | 🔍 In review |
 | [#23720](https://github.com/apache/kafka/pull/23720) | PR | `KAFKA-21227`: Speed up `ColdStartStickinessIntegrationTest` | 🔍 In review |
 | [#23655](https://github.com/apache/kafka/pull/23655) | PR | `KAFKA-21193`: Speed up `SuppressionIntegrationTest` | 🔍 In review |
 | [#23652](https://github.com/apache/kafka/pull/23652) | PR | `MINOR`: Replace `Collections` factory methods with Java 9+ equivalents in server tests | ✅ Merged |
@@ -90,15 +91,16 @@ in others. Working through that led to a second gap in the same area, filed as #
 </details>
 
 <details>
-<summary><b>Discussions</b> &nbsp;-&nbsp; 2 threads</summary>
+<summary><b>Discussions</b> &nbsp;-&nbsp; 3 threads</summary>
 
 <br>
 
-Comments on other people's threads, mostly follow-on from the local cache work.
+Reviews and comments on other people's work.
 
 | Repo | Thread | What I added |
 |:--|:--|:--|
-| docker/buildx | [#310](https://github.com/docker/buildx/issues/310#issuecomment-5537817848) | Corrected which component gates `reset=true`, the **buildx** version rather than the builder's BuildKit, with the release each side landed in |
+| apache/kafka | [#23602](https://github.com/apache/kafka/pull/23602#issuecomment-6031527556) | Reviewed a parallel fix to the one I made in #23655, checking it against the three pitfalls I had hit there |
 | docker/docs | [#13390](https://github.com/docker/docs/issues/13390#issuecomment-5564820406) | Traced which half of a 3-year-old report [#21420](https://github.com/docker/docs/pull/21420) had already fixed, and which part still stands. The reporter closed the thread a week later |
+| docker/buildx | [#310](https://github.com/docker/buildx/issues/310#issuecomment-5537817848) | Corrected which component gates `reset=true`, the **buildx** version rather than the builder's BuildKit, with the release each side landed in |
 
 </details>
