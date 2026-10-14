@@ -8,10 +8,10 @@ I'm interested in open source
 
 ## 🌍 Open Source Contributions
 
-`✅ Merged / resolved` &nbsp;·&nbsp; `🔍 In review` &nbsp;·&nbsp; `📝 Draft` &nbsp;·&nbsp; `💬 Open discussion`
+`✅ Merged / resolved` &nbsp;·&nbsp; `🔍 In review` &nbsp;·&nbsp; `📝 Draft` &nbsp;·&nbsp; `🔁 Superseded` &nbsp;·&nbsp; `💬 Open discussion`
 
 <details>
-<summary><b>docker/docs</b> &nbsp;-&nbsp; 7 merged &nbsp;·&nbsp; 2 in review</summary>
+<summary><b>docker/docs</b> &nbsp;-&nbsp; 7 merged &nbsp;·&nbsp; 1 in review</summary>
 
 <br>
 
@@ -23,7 +23,7 @@ in a build cache GC policy example. Since then, smaller fixes across install and
 |:--|:--|:--|:--|
 | [#26197](https://github.com/docker/docs/pull/26197) | PR | Correct GitHub Actions cache version selection | ✅ Merged |
 | [#26087](https://github.com/docker/docs/pull/26087) | PR | Fix install options on the Raspberry Pi OS 32-bit page | 🔍 In review |
-| [#26054](https://github.com/docker/docs/pull/26054) | PR | Scope the SCIM note in the team removal section | 🔍 In review |
+| [#26054](https://github.com/docker/docs/pull/26054) | PR | Scope the SCIM note in the team removal section. A maintainer folded it into a broader docs pass in [#26346](https://github.com/docker/docs/pull/26346) | 🔁 Superseded |
 | [#26025](https://github.com/docker/docs/pull/26025) | PR | Restore `/docker-for-windows/troubleshoot/` alias | ✅ Merged |
 | [#26016](https://github.com/docker/docs/pull/26016) | PR | Fix arithmetic in build cache GC policy example | ✅ Merged |
 | [#25977](https://github.com/docker/docs/pull/25977) | PR | Replace GHA local cache workaround with `reset` | ✅ Merged |
