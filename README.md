@@ -34,7 +34,7 @@ in a build cache GC policy example. Since then, smaller fixes across install and
 </details>
 
 <details>
-<summary><b>apache/kafka</b> &nbsp;-&nbsp; 3 merged &nbsp;·&nbsp; 6 in review</summary>
+<summary><b>apache/kafka</b> &nbsp;-&nbsp; 4 merged &nbsp;·&nbsp; 5 in review</summary>
 
 <br>
 
@@ -48,7 +48,7 @@ across tools, storage and server, and cutting the runtime of slow Streams integr
 | [#23720](https://github.com/apache/kafka/pull/23720) | PR | `KAFKA-21227`: Speed up `ColdStartStickinessIntegrationTest` | 🔍 In review |
 | [#23655](https://github.com/apache/kafka/pull/23655) | PR | `KAFKA-21193`: Speed up `SuppressionIntegrationTest` | 🔍 In review |
 | [#23652](https://github.com/apache/kafka/pull/23652) | PR | `MINOR`: Replace `Collections` factory methods with Java 9+ equivalents in server tests | ✅ Merged |
-| [#23636](https://github.com/apache/kafka/pull/23636) | PR | `MINOR`: Replace try/fail/catch with `assertThrows` in remaining Streams tests | 🔍 In review |
+| [#23636](https://github.com/apache/kafka/pull/23636) | PR | `MINOR`: Replace try/fail/catch with `assertThrows` in remaining Streams tests | ✅ Merged |
 | [#23617](https://github.com/apache/kafka/pull/23617) | PR | `MINOR`: Replace `Collections` factory methods with Java 9+ equivalents in storage tests | ✅ Merged |
 | [#23549](https://github.com/apache/kafka/pull/23549) | PR | `KAFKA-21070`: Fix task cleanup when state updater shutdown is interrupted | 🔍 In review |
 | [#23390](https://github.com/apache/kafka/pull/23390) | PR | `KAFKA-21034`: Wipe the global state directory when the store is corrupted | 🔍 In review |
