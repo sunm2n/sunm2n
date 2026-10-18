@@ -34,7 +34,7 @@ in a build cache GC policy example. Since then, smaller fixes across install and
 </details>
 
 <details>
-<summary><b>apache/kafka</b> &nbsp;-&nbsp; 4 merged &nbsp;·&nbsp; 5 in review</summary>
+<summary><b>apache/kafka</b> &nbsp;-&nbsp; 5 merged &nbsp;·&nbsp; 4 in review</summary>
 
 <br>
 
@@ -44,7 +44,7 @@ across tools, storage and server, and cutting the runtime of slow Streams integr
 
 | | Type | Title | Status |
 |:--|:--|:--|:--|
-| [#23746](https://github.com/apache/kafka/pull/23746) | PR | `MINOR`: Fix login callback config cleanup in `SaslAuthenticatorTest` | 🔍 In review |
+| [#23746](https://github.com/apache/kafka/pull/23746) | PR | `MINOR`: Fix login callback config cleanup in `SaslAuthenticatorTest` | ✅ Merged |
 | [#23720](https://github.com/apache/kafka/pull/23720) | PR | `KAFKA-21227`: Speed up `ColdStartStickinessIntegrationTest` | 🔍 In review |
 | [#23655](https://github.com/apache/kafka/pull/23655) | PR | `KAFKA-21193`: Speed up `SuppressionIntegrationTest` | 🔍 In review |
 | [#23652](https://github.com/apache/kafka/pull/23652) | PR | `MINOR`: Replace `Collections` factory methods with Java 9+ equivalents in server tests | ✅ Merged |
