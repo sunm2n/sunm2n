@@ -34,16 +34,18 @@ in a build cache GC policy example. Since then, smaller fixes across install and
 </details>
 
 <details>
-<summary><b>apache/kafka</b> &nbsp;-&nbsp; 5 merged &nbsp;·&nbsp; 4 in review</summary>
+<summary><b>apache/kafka</b> &nbsp;-&nbsp; 5 merged &nbsp;·&nbsp; 5 in review</summary>
 
 <br>
 
 Kafka Streams state management: two JIRA-tracked fixes around state directory cleanup
 after a corrupted store or an interrupted shutdown, plus ongoing test work: Java 9+ cleanup
-across tools, storage and server, and cutting the runtime of slow Streams integration tests.
+across tools, storage and server, assertion cleanup in Streams and Connect, and cutting the
+runtime of slow Streams integration tests.
 
 | | Type | Title | Status |
 |:--|:--|:--|:--|
+| [#23860](https://github.com/apache/kafka/pull/23860) | PR | `MINOR`: Replace try/fail/catch with `assertThrows` in Connect tests | 🔍 In review |
 | [#23746](https://github.com/apache/kafka/pull/23746) | PR | `MINOR`: Fix login callback config cleanup in `SaslAuthenticatorTest` | ✅ Merged |
 | [#23720](https://github.com/apache/kafka/pull/23720) | PR | `KAFKA-21227`: Speed up `ColdStartStickinessIntegrationTest` | 🔍 In review |
 | [#23655](https://github.com/apache/kafka/pull/23655) | PR | `KAFKA-21193`: Speed up `SuppressionIntegrationTest` | 🔍 In review |
