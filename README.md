@@ -11,6 +11,32 @@ I'm interested in open source
 `✅ Merged / resolved` &nbsp;·&nbsp; `🔍 In review` &nbsp;·&nbsp; `📝 Draft` &nbsp;·&nbsp; `🔁 Superseded` &nbsp;·&nbsp; `💬 Open discussion`
 
 <details>
+<summary><b>apache/kafka</b> &nbsp;-&nbsp; 6 merged &nbsp;·&nbsp; 5 in review</summary>
+
+<br>
+
+Kafka Streams state management: two JIRA-tracked fixes around state directory cleanup
+after a corrupted store or an interrupted shutdown, plus ongoing test work: Java 9+ cleanup
+across tools, storage and server, assertion cleanup in Streams and Connect, filling test gaps
+in the group coordinator, and cutting the runtime of slow Streams integration tests.
+
+| | Type | Title | Status |
+|:--|:--|:--|:--|
+| [#23874](https://github.com/apache/kafka/pull/23874) | PR | `MINOR`: Test topic removal in the share group assignor | 🔍 In review |
+| [#23860](https://github.com/apache/kafka/pull/23860) | PR | `MINOR`: Replace try/fail/catch with `assertThrows` in Connect tests | ✅ Merged |
+| [#23746](https://github.com/apache/kafka/pull/23746) | PR | `MINOR`: Fix login callback config cleanup in `SaslAuthenticatorTest` | ✅ Merged |
+| [#23720](https://github.com/apache/kafka/pull/23720) | PR | `KAFKA-21227`: Speed up `ColdStartStickinessIntegrationTest` | 🔍 In review |
+| [#23655](https://github.com/apache/kafka/pull/23655) | PR | `KAFKA-21193`: Speed up `SuppressionIntegrationTest` | 🔍 In review |
+| [#23652](https://github.com/apache/kafka/pull/23652) | PR | `MINOR`: Replace `Collections` factory methods with Java 9+ equivalents in server tests | ✅ Merged |
+| [#23636](https://github.com/apache/kafka/pull/23636) | PR | `MINOR`: Replace try/fail/catch with `assertThrows` in remaining Streams tests | ✅ Merged |
+| [#23617](https://github.com/apache/kafka/pull/23617) | PR | `MINOR`: Replace `Collections` factory methods with Java 9+ equivalents in storage tests | ✅ Merged |
+| [#23549](https://github.com/apache/kafka/pull/23549) | PR | `KAFKA-21070`: Fix task cleanup when state updater shutdown is interrupted | 🔍 In review |
+| [#23390](https://github.com/apache/kafka/pull/23390) | PR | `KAFKA-21034`: Wipe the global state directory when the store is corrupted | 🔍 In review |
+| [#23344](https://github.com/apache/kafka/pull/23344) | PR | `MINOR`: Replace `Collections`/`Arrays` factory methods with Java 9+ equivalents in tools | ✅ Merged |
+
+</details>
+
+<details>
 <summary><b>docker/docs</b> &nbsp;-&nbsp; 7 merged &nbsp;·&nbsp; 1 in review</summary>
 
 <br>
@@ -30,32 +56,6 @@ in a build cache GC policy example. Since then, smaller fixes across install and
 | [#25976](https://github.com/docker/docs/pull/25976) | PR | Document `reset` parameter for local cache backend | ✅ Merged |
 | [#25943](https://github.com/docker/docs/pull/25943) | PR | Document `tag` parameter and restructure local cache versioning | ✅ Merged |
 | [#25942](https://github.com/docker/docs/pull/25942) | PR | Fix incorrect description in local cache page | ✅ Merged |
-
-</details>
-
-<details>
-<summary><b>apache/kafka</b> &nbsp;-&nbsp; 5 merged &nbsp;·&nbsp; 6 in review</summary>
-
-<br>
-
-Kafka Streams state management: two JIRA-tracked fixes around state directory cleanup
-after a corrupted store or an interrupted shutdown, plus ongoing test work: Java 9+ cleanup
-across tools, storage and server, assertion cleanup in Streams and Connect, filling test gaps
-in the group coordinator, and cutting the runtime of slow Streams integration tests.
-
-| | Type | Title | Status |
-|:--|:--|:--|:--|
-| [#23874](https://github.com/apache/kafka/pull/23874) | PR | `MINOR`: Test topic removal in the homogeneous share group assignor | 🔍 In review |
-| [#23860](https://github.com/apache/kafka/pull/23860) | PR | `MINOR`: Replace try/fail/catch with `assertThrows` in Connect tests | 🔍 In review |
-| [#23746](https://github.com/apache/kafka/pull/23746) | PR | `MINOR`: Fix login callback config cleanup in `SaslAuthenticatorTest` | ✅ Merged |
-| [#23720](https://github.com/apache/kafka/pull/23720) | PR | `KAFKA-21227`: Speed up `ColdStartStickinessIntegrationTest` | 🔍 In review |
-| [#23655](https://github.com/apache/kafka/pull/23655) | PR | `KAFKA-21193`: Speed up `SuppressionIntegrationTest` | 🔍 In review |
-| [#23652](https://github.com/apache/kafka/pull/23652) | PR | `MINOR`: Replace `Collections` factory methods with Java 9+ equivalents in server tests | ✅ Merged |
-| [#23636](https://github.com/apache/kafka/pull/23636) | PR | `MINOR`: Replace try/fail/catch with `assertThrows` in remaining Streams tests | ✅ Merged |
-| [#23617](https://github.com/apache/kafka/pull/23617) | PR | `MINOR`: Replace `Collections` factory methods with Java 9+ equivalents in storage tests | ✅ Merged |
-| [#23549](https://github.com/apache/kafka/pull/23549) | PR | `KAFKA-21070`: Fix task cleanup when state updater shutdown is interrupted | 🔍 In review |
-| [#23390](https://github.com/apache/kafka/pull/23390) | PR | `KAFKA-21034`: Wipe the global state directory when the store is corrupted | 🔍 In review |
-| [#23344](https://github.com/apache/kafka/pull/23344) | PR | `MINOR`: Replace `Collections`/`Arrays` factory methods with Java 9+ equivalents in tools | ✅ Merged |
 
 </details>
 
