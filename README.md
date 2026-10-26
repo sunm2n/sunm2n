@@ -11,7 +11,7 @@ I'm interested in open source
 `✅ Merged / resolved` &nbsp;·&nbsp; `🔍 In review` &nbsp;·&nbsp; `📝 Draft` &nbsp;·&nbsp; `🔁 Superseded` &nbsp;·&nbsp; `💬 Open discussion`
 
 <details>
-<summary><b>apache/kafka</b> &nbsp;-&nbsp; 6 merged &nbsp;·&nbsp; 5 in review</summary>
+<summary><b>apache/kafka</b> &nbsp;-&nbsp; 7 merged &nbsp;·&nbsp; 4 in review</summary>
 
 <br>
 
@@ -22,7 +22,7 @@ in the group coordinator, and cutting the runtime of slow Streams integration te
 
 | | Type | Title | Status |
 |:--|:--|:--|:--|
-| [#23874](https://github.com/apache/kafka/pull/23874) | PR | `MINOR`: Test topic removal in the share group assignor | 🔍 In review |
+| [#23874](https://github.com/apache/kafka/pull/23874) | PR | `MINOR`: Test topic removal in the share group assignor | ✅ Merged |
 | [#23860](https://github.com/apache/kafka/pull/23860) | PR | `MINOR`: Replace try/fail/catch with `assertThrows` in Connect tests | ✅ Merged |
 | [#23746](https://github.com/apache/kafka/pull/23746) | PR | `MINOR`: Fix login callback config cleanup in `SaslAuthenticatorTest` | ✅ Merged |
 | [#23720](https://github.com/apache/kafka/pull/23720) | PR | `KAFKA-21227`: Speed up `ColdStartStickinessIntegrationTest` | 🔍 In review |
