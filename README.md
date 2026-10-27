@@ -23,7 +23,7 @@ in the group coordinator and Streams task assignor, and cutting the runtime of s
 
 | | Type | Title | Status |
 |:--|:--|:--|:--|
-| [#23972](https://github.com/apache/kafka/pull/23972) | PR | `KAFKA-21360`: Revoke topics no member subscribes to in the heterogeneous share assignor | 🔍 In review |
+| [#23972](https://github.com/apache/kafka/pull/23972) | PR | `KAFKA-21360`: Revoke unsubscribed topics in the heterogeneous share assignor | 🔍 In review |
 | [#23962](https://github.com/apache/kafka/pull/23962) | PR | `MINOR`: Test stale task assignments in `StickyTaskAssignor` | 🔍 In review |
 | [#23874](https://github.com/apache/kafka/pull/23874) | PR | `MINOR`: Test topic removal in the share group assignor | ✅ Merged |
 | [#23860](https://github.com/apache/kafka/pull/23860) | PR | `MINOR`: Replace try/fail/catch with `assertThrows` in Connect tests | ✅ Merged |
