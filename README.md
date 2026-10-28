@@ -11,10 +11,11 @@ I'm interested in open source
 `✅ Merged / resolved` &nbsp;·&nbsp; `🔍 In review` &nbsp;·&nbsp; `📝 Draft` &nbsp;·&nbsp; `🔁 Superseded` &nbsp;·&nbsp; `💬 Open discussion`
 
 <details>
-<summary><b>apache/kafka</b> &nbsp;-&nbsp; 7 merged &nbsp;·&nbsp; 6 in review</summary>
+<summary><b>apache/kafka</b> &nbsp;-&nbsp; 1 KIP &nbsp;·&nbsp; 7 merged &nbsp;·&nbsp; 6 in review</summary>
 
 <br>
 
+Authored KIP-1389 to surface effective group configurations to clients.
 Kafka Streams state management: two JIRA-tracked fixes around state directory cleanup
 after a corrupted store or an interrupted shutdown, a share group assignor fix for stale
 topic assignments, plus ongoing test work: Java 9+ cleanup
@@ -23,6 +24,7 @@ in the group coordinator and Streams task assignor, and cutting the runtime of s
 
 | | Type | Title | Status |
 |:--|:--|:--|:--|
+| [KIP-1389](https://cwiki.apache.org/confluence/spaces/KAFKA/pages/462815689/KIP-1389+Surface+effective+group+configurations+to+clients) | KIP | Surface effective group configurations to clients | 💬 Open discussion |
 | [#23972](https://github.com/apache/kafka/pull/23972) | PR | `KAFKA-21360`: Revoke unsubscribed topics in the heterogeneous share assignor | 🔍 In review |
 | [#23962](https://github.com/apache/kafka/pull/23962) | PR | `MINOR`: Test stale task assignments in `StickyTaskAssignor` | 🔍 In review |
 | [#23874](https://github.com/apache/kafka/pull/23874) | PR | `MINOR`: Test topic removal in the share group assignor | ✅ Merged |
