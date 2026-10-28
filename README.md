@@ -8,10 +8,10 @@ I'm interested in open source
 
 ## 🌍 Open Source Contributions
 
-`✅ Merged / resolved` &nbsp;·&nbsp; `🔍 In review` &nbsp;·&nbsp; `📝 Draft` &nbsp;·&nbsp; `🔁 Superseded` &nbsp;·&nbsp; `💬 Open discussion`
+`✅ Merged / resolved` &nbsp;·&nbsp; `🔍 In review` &nbsp;·&nbsp; `🔁 Superseded` &nbsp;·&nbsp; `💬 Discussion`
 
 <details>
-<summary><b>apache/kafka</b> &nbsp;-&nbsp; 1 KIP &nbsp;·&nbsp; 7 merged &nbsp;·&nbsp; 6 in review</summary>
+<summary><b>apache/kafka</b> &nbsp;-&nbsp; 1 KIP &nbsp;·&nbsp; 8 merged &nbsp;·&nbsp; 5 in review</summary>
 
 <br>
 
@@ -24,14 +24,14 @@ in the group coordinator and Streams task assignor, and cutting the runtime of s
 
 | | Type | Title | Status |
 |:--|:--|:--|:--|
-| [KIP-1389](https://cwiki.apache.org/confluence/spaces/KAFKA/pages/462815689/KIP-1389+Surface+effective+group+configurations+to+clients) | KIP | Surface effective group configurations to clients | 💬 Open discussion |
+| [KIP](https://cwiki.apache.org/confluence/spaces/KAFKA/pages/462815689/KIP-1389+Surface+effective+group+configurations+to+clients) | KIP | `KIP-1389`: Surface effective group configurations to clients | 💬 Discussion |
 | [#23972](https://github.com/apache/kafka/pull/23972) | PR | `KAFKA-21360`: Revoke unsubscribed topics in the heterogeneous share assignor | 🔍 In review |
 | [#23962](https://github.com/apache/kafka/pull/23962) | PR | `MINOR`: Test stale task assignments in `StickyTaskAssignor` | 🔍 In review |
 | [#23874](https://github.com/apache/kafka/pull/23874) | PR | `MINOR`: Test topic removal in the share group assignor | ✅ Merged |
 | [#23860](https://github.com/apache/kafka/pull/23860) | PR | `MINOR`: Replace try/fail/catch with `assertThrows` in Connect tests | ✅ Merged |
 | [#23746](https://github.com/apache/kafka/pull/23746) | PR | `MINOR`: Fix login callback config cleanup in `SaslAuthenticatorTest` | ✅ Merged |
 | [#23720](https://github.com/apache/kafka/pull/23720) | PR | `KAFKA-21227`: Speed up `ColdStartStickinessIntegrationTest` | 🔍 In review |
-| [#23655](https://github.com/apache/kafka/pull/23655) | PR | `KAFKA-21193`: Speed up `SuppressionIntegrationTest` | 🔍 In review |
+| [#23655](https://github.com/apache/kafka/pull/23655) | PR | `KAFKA-21193`: Speed up `SuppressionIntegrationTest` | ✅ Merged |
 | [#23652](https://github.com/apache/kafka/pull/23652) | PR | `MINOR`: Replace `Collections` factory methods with Java 9+ equivalents in server tests | ✅ Merged |
 | [#23636](https://github.com/apache/kafka/pull/23636) | PR | `MINOR`: Replace try/fail/catch with `assertThrows` in remaining Streams tests | ✅ Merged |
 | [#23617](https://github.com/apache/kafka/pull/23617) | PR | `MINOR`: Replace `Collections` factory methods with Java 9+ equivalents in storage tests | ✅ Merged |
@@ -61,6 +61,7 @@ in a build cache GC policy example. Since then, smaller fixes across install and
 | [#25976](https://github.com/docker/docs/pull/25976) | PR | Document `reset` parameter for local cache backend | ✅ Merged |
 | [#25943](https://github.com/docker/docs/pull/25943) | PR | Document `tag` parameter and restructure local cache versioning | ✅ Merged |
 | [#25942](https://github.com/docker/docs/pull/25942) | PR | Fix incorrect description in local cache page | ✅ Merged |
+| [#13390](https://github.com/docker/docs/issues/13390#issuecomment-5564820406) | Comment | Traced which half of a 3-year-old report [#21420](https://github.com/docker/docs/pull/21420) had already fixed, and which part still stands. The reporter closed the thread a week later | ✅ Resolved |
 
 </details>
 
@@ -78,37 +79,6 @@ v0.33.0, and #7102 closed as completed.
 |:--|:--|:--|:--|
 | [#7153](https://github.com/moby/buildkit/pull/7153#issuecomment-5785957508) | Verification | `client`: protect concurrent local cache exports from `reset`, a maintainer's fix for #7102 that I verified against the reported repro | ✅ Merged |
 | [#7102](https://github.com/moby/buildkit/issues/7102) | Issue | local cache exporter: `reset=true` can delete blobs from a concurrent export | ✅ Resolved |
-
-</details>
-
-<details>
-<summary><b>opensearch-project/OpenSearch</b> &nbsp;-&nbsp; 1 in review &nbsp;·&nbsp; 1 draft &nbsp;·&nbsp; 1 issue</summary>
-
-<br>
-
-Picked up [#22961](https://github.com/opensearch-project/OpenSearch/issues/22961): the DSL
-query translators silently ignored `boost` and `_name` in some queries while rejecting them
-in others. Working through that led to a second gap in the same area, filed as #23011.
-
-| | Type | Title | Status |
-|:--|:--|:--|:--|
-| [#23014](https://github.com/opensearch-project/OpenSearch/pull/23014) | PR | Validate skipped optional `should` clauses | 📝 Draft |
-| [#23011](https://github.com/opensearch-project/OpenSearch/issues/23011) | Issue | Unsupported `boost`/`_name` on optional `should` clauses is silently accepted | 💬 Open discussion |
-| [#22981](https://github.com/opensearch-project/OpenSearch/pull/22981) | PR | Reject unsupported DSL query options | 🔍 In review |
-
-</details>
-
-<details>
-<summary><b>Discussions</b> &nbsp;-&nbsp; 3 threads</summary>
-
-<br>
-
-Reviews and comments on other people's work.
-
-| Repo | Thread | What I added |
-|:--|:--|:--|
-| apache/kafka | [#23602](https://github.com/apache/kafka/pull/23602#issuecomment-6031527556) | Reviewed a parallel fix to the one I made in #23655, checking it against the three pitfalls I had hit there |
-| docker/docs | [#13390](https://github.com/docker/docs/issues/13390#issuecomment-5564820406) | Traced which half of a 3-year-old report [#21420](https://github.com/docker/docs/pull/21420) had already fixed, and which part still stands. The reporter closed the thread a week later |
-| docker/buildx | [#310](https://github.com/docker/buildx/issues/310#issuecomment-5537817848) | Corrected which component gates `reset=true`, the **buildx** version rather than the builder's BuildKit, with the release each side landed in |
+| [#310](https://github.com/docker/buildx/issues/310#issuecomment-5537817848) | Comment | docker/buildx: Corrected which component gates `reset=true`, the **buildx** version rather than the builder's BuildKit, with the release each side landed in | ✅ Resolved |
 
 </details>
