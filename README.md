@@ -11,20 +11,21 @@ I'm interested in open source
 `✅ Merged / resolved` &nbsp;·&nbsp; `🔍 In review` &nbsp;·&nbsp; `🔁 Superseded` &nbsp;·&nbsp; `💬 Discussion`
 
 <details>
-<summary><b>apache/kafka</b> &nbsp;-&nbsp; 1 KIP &nbsp;·&nbsp; 8 merged &nbsp;·&nbsp; 5 in review</summary>
+<summary><b>apache/kafka</b> &nbsp;-&nbsp; 1 KIP &nbsp;·&nbsp; 8 merged &nbsp;·&nbsp; 6 in review</summary>
 
 <br>
 
 Authored KIP-1389 to surface effective group configurations to clients.
 Kafka Streams state management: two JIRA-tracked fixes around state directory cleanup
 after a corrupted store or an interrupted shutdown, a share group assignor fix for stale
-topic assignments, plus ongoing test work: Java 9+ cleanup
+topic assignments, an async consumer fix for members fenced during offset fetch, plus ongoing test work: Java 9+ cleanup
 across tools, storage and server, assertion cleanup in Streams and Connect, filling test gaps
 in the group coordinator and Streams task assignor, and cutting the runtime of slow Streams integration tests.
 
 | | Type | Title | Status |
 |:--|:--|:--|:--|
 | [KIP](https://cwiki.apache.org/confluence/spaces/KAFKA/pages/462815689/KIP-1389+Surface+effective+group+configurations+to+clients) | KIP | `KIP-1389`: Surface effective group configurations to clients | 💬 Discussion |
+| [#24181](https://github.com/apache/kafka/pull/24181) | PR | `KAFKA-21453`: Skip position initialization for members fenced during offset fetch | 🔍 In review |
 | [#23972](https://github.com/apache/kafka/pull/23972) | PR | `KAFKA-21360`: Revoke unsubscribed topics in the heterogeneous share assignor | 🔍 In review |
 | [#23962](https://github.com/apache/kafka/pull/23962) | PR | `MINOR`: Test stale task assignments in `StickyTaskAssignor` | 🔍 In review |
 | [#23874](https://github.com/apache/kafka/pull/23874) | PR | `MINOR`: Test topic removal in the share group assignor | ✅ Merged |
