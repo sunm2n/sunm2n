@@ -43,6 +43,21 @@ in the group coordinator and Streams task assignor, and cutting the runtime of s
 </details>
 
 <details>
+<summary><b>strimzi/strimzi-kafka-operator</b> &nbsp;-&nbsp; 1 in review</summary>
+
+<br>
+
+The Cluster Operator detects platform features such as the Gateway API `TLSRoute` resource
+only at startup. Following the triage of [#13164](https://github.com/strimzi/strimzi-kafka-operator/issues/13164), made that limitation visible in the
+operator's warnings and the TLSRoute docs instead of leaving users to hit failed reconciliations.
+
+| | Type | Title | Status |
+|:--|:--|:--|:--|
+| [#13373](https://github.com/strimzi/strimzi-kafka-operator/pull/13373) | PR | Recommend restarting the operator when the Route or TLSRoute API is missing | 🔍 In review |
+
+</details>
+
+<details>
 <summary><b>docker/docs</b> &nbsp;-&nbsp; 7 merged &nbsp;·&nbsp; 1 in review</summary>
 
 <br>
