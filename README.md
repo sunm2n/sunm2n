@@ -11,7 +11,7 @@ I'm interested in open source
 `✅ Merged / resolved` &nbsp;·&nbsp; `🔍 In review` &nbsp;·&nbsp; `🔁 Superseded` &nbsp;·&nbsp; `💬 Discussion`
 
 <details>
-<summary><b>apache/kafka</b> &nbsp;-&nbsp; 1 KIP &nbsp;·&nbsp; 8 merged &nbsp;·&nbsp; 7 in review</summary>
+<summary><b>apache/kafka</b> &nbsp;-&nbsp; 1 KIP &nbsp;·&nbsp; 9 merged &nbsp;·&nbsp; 6 in review</summary>
 
 <br>
 
@@ -37,7 +37,7 @@ in the group coordinator and Streams task assignor, and cutting the runtime of s
 | [#23652](https://github.com/apache/kafka/pull/23652) | PR | `MINOR`: Replace `Collections` factory methods with Java 9+ equivalents in server tests | ✅ Merged |
 | [#23636](https://github.com/apache/kafka/pull/23636) | PR | `MINOR`: Replace try/fail/catch with `assertThrows` in remaining Streams tests | ✅ Merged |
 | [#23617](https://github.com/apache/kafka/pull/23617) | PR | `MINOR`: Replace `Collections` factory methods with Java 9+ equivalents in storage tests | ✅ Merged |
-| [#23549](https://github.com/apache/kafka/pull/23549) | PR | `KAFKA-21070`: Fix task cleanup when state updater shutdown is interrupted | 🔍 In review |
+| [#23549](https://github.com/apache/kafka/pull/23549) | PR | `KAFKA-21070`: Fix task cleanup when state updater shutdown is interrupted | ✅ Merged |
 | [#23390](https://github.com/apache/kafka/pull/23390) | PR | `KAFKA-21034`: Wipe the global state directory when the store is corrupted | 🔍 In review |
 | [#23344](https://github.com/apache/kafka/pull/23344) | PR | `MINOR`: Replace `Collections`/`Arrays` factory methods with Java 9+ equivalents in tools | ✅ Merged |
 
