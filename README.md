@@ -44,7 +44,7 @@ in the group coordinator and Streams task assignor, and cutting the runtime of s
 </details>
 
 <details>
-<summary><b>strimzi/strimzi-kafka-operator</b> &nbsp;-&nbsp; 1 in review</summary>
+<summary><b>strimzi/strimzi-kafka-operator</b> &nbsp;-&nbsp; 1 merged</summary>
 
 <br>
 
@@ -54,7 +54,7 @@ operator's warnings and the TLSRoute docs instead of leaving users to hit failed
 
 | | Type | Title | Status |
 |:--|:--|:--|:--|
-| [#13373](https://github.com/strimzi/strimzi-kafka-operator/pull/13373) | PR | Recommend restarting the operator when the Route or TLSRoute API is missing | 🔍 In review |
+| [#13373](https://github.com/strimzi/strimzi-kafka-operator/pull/13373) | PR | Recommend restarting the operator when the TLSRoute API is missing | ✅ Merged |
 
 </details>
 
