@@ -25,7 +25,7 @@ in the group coordinator and Streams task assignor, and cutting the runtime of s
 | | Type | Title | Status |
 |:--|:--|:--|:--|
 | [KIP](https://cwiki.apache.org/confluence/spaces/KAFKA/pages/462815689/KIP-1389+Surface+effective+group+configurations+to+clients) | KIP | `KIP-1389`: Surface effective group configurations to clients | 💬 Discussion |
-| [#24240](https://github.com/apache/kafka/pull/24240) | PR | `KAFKA-21522`: Clear the interrupt status before the global stream thread shuts down | 🔍 In review |
+| [#24240](https://github.com/apache/kafka/pull/24240) | PR | `KAFKA-21522`: Clear the interrupt status before the global stream thread shuts down | ✅ Merged |
 | [#24181](https://github.com/apache/kafka/pull/24181) | PR | `KAFKA-21453`: Skip position initialization for members fenced during offset fetch | 🔍 In review |
 | [#23972](https://github.com/apache/kafka/pull/23972) | PR | `KAFKA-21360`: Revoke unsubscribed topics in the heterogeneous share assignor | 🔍 In review |
 | [#23962](https://github.com/apache/kafka/pull/23962) | PR | `MINOR`: Test stale task assignments in `StickyTaskAssignor` | 🔍 In review |
