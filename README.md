@@ -11,7 +11,7 @@ I'm interested in open source
 `✅ Merged / resolved` &nbsp;·&nbsp; `🔍 In review` &nbsp;·&nbsp; `🔁 Superseded` &nbsp;·&nbsp; `💬 Discussion`
 
 <details>
-<summary><b>apache/kafka</b> &nbsp;-&nbsp; 1 KIP &nbsp;·&nbsp; 9 merged &nbsp;·&nbsp; 6 in review</summary>
+<summary><b>apache/kafka</b> &nbsp;-&nbsp; 1 KIP &nbsp;·&nbsp; 10 merged &nbsp;·&nbsp; 5 in review</summary>
 
 <br>
 
