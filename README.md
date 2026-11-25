@@ -11,20 +11,21 @@ I'm interested in open source
 `✅ Merged / resolved` &nbsp;·&nbsp; `🔍 In review` &nbsp;·&nbsp; `🔁 Superseded` &nbsp;·&nbsp; `💬 Discussion`
 
 <details>
-<summary><b>apache/kafka</b> &nbsp;-&nbsp; 1 KIP &nbsp;·&nbsp; 10 merged &nbsp;·&nbsp; 5 in review</summary>
+<summary><b>apache/kafka</b> &nbsp;-&nbsp; 1 KIP &nbsp;·&nbsp; 10 merged &nbsp;·&nbsp; 6 in review</summary>
 
 <br>
 
 Authored KIP-1389 to surface effective group configurations to clients.
 Kafka Streams state management: three JIRA-tracked fixes around state directory cleanup
-after a corrupted store or an interrupted shutdown and interrupt handling in the global stream thread, a share group assignor fix for stale
-topic assignments, an async consumer fix for members fenced during offset fetch, plus ongoing test work: Java 9+ cleanup
+after a corrupted store or an interrupted shutdown and interrupt handling in the global stream thread, two share group assignor fixes for stale
+topic assignments and a delayed first assignment, an async consumer fix for members fenced during offset fetch, plus ongoing test work: Java 9+ cleanup
 across tools, storage and server, assertion cleanup in Streams and Connect, filling test gaps
 in the group coordinator and Streams task assignor, and cutting the runtime of slow Streams integration tests.
 
 | | Type | Title | Status |
 |:--|:--|:--|:--|
 | [KIP](https://cwiki.apache.org/confluence/spaces/KAFKA/pages/462815689/KIP-1389+Surface+effective+group+configurations+to+clients) | KIP | `KIP-1389`: Surface effective group configurations to clients | 💬 Discussion |
+| [#24381](https://github.com/apache/kafka/pull/24381) | PR | `KAFKA-21610`: Run the share group assignor when share partitions are initialized | 🔍 In review |
 | [#24240](https://github.com/apache/kafka/pull/24240) | PR | `KAFKA-21522`: Clear the interrupt status before the global stream thread shuts down | ✅ Merged |
 | [#24181](https://github.com/apache/kafka/pull/24181) | PR | `KAFKA-21453`: Skip position initialization for members fenced during offset fetch | 🔍 In review |
 | [#23972](https://github.com/apache/kafka/pull/23972) | PR | `KAFKA-21360`: Revoke unsubscribed topics in the heterogeneous share assignor | 🔍 In review |
