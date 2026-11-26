@@ -11,7 +11,7 @@ I'm interested in open source
 `✅ Merged / resolved` &nbsp;·&nbsp; `🔍 In review` &nbsp;·&nbsp; `🔁 Superseded` &nbsp;·&nbsp; `💬 Discussion`
 
 <details>
-<summary><b>apache/kafka</b> &nbsp;-&nbsp; 1 KIP &nbsp;·&nbsp; 10 merged &nbsp;·&nbsp; 6 in review</summary>
+<summary><b>apache/kafka</b> &nbsp;-&nbsp; 1 KIP &nbsp;·&nbsp; 11 merged &nbsp;·&nbsp; 5 in review</summary>
 
 <br>
 
@@ -29,7 +29,7 @@ in the group coordinator and Streams task assignor, and cutting the runtime of s
 | [#24240](https://github.com/apache/kafka/pull/24240) | PR | `KAFKA-21522`: Clear the interrupt status before the global stream thread shuts down | ✅ Merged |
 | [#24181](https://github.com/apache/kafka/pull/24181) | PR | `KAFKA-21453`: Skip position initialization for members fenced during offset fetch | 🔍 In review |
 | [#23972](https://github.com/apache/kafka/pull/23972) | PR | `KAFKA-21360`: Revoke unsubscribed topics in the heterogeneous share assignor | 🔍 In review |
-| [#23962](https://github.com/apache/kafka/pull/23962) | PR | `MINOR`: Test stale task assignments in `StickyTaskAssignor` | 🔍 In review |
+| [#23962](https://github.com/apache/kafka/pull/23962) | PR | `MINOR`: Test stale task assignments in `StickyTaskAssignor` | ✅ Merged |
 | [#23874](https://github.com/apache/kafka/pull/23874) | PR | `MINOR`: Test topic removal in the share group assignor | ✅ Merged |
 | [#23860](https://github.com/apache/kafka/pull/23860) | PR | `MINOR`: Replace try/fail/catch with `assertThrows` in Connect tests | ✅ Merged |
 | [#23746](https://github.com/apache/kafka/pull/23746) | PR | `MINOR`: Fix login callback config cleanup in `SaslAuthenticatorTest` | ✅ Merged |
